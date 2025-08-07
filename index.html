@@ -3,58 +3,75 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nikhil B - DevOps Engineer Portfolio</title>
+  <title>Nikhil B | DevOps Engineer Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Header -->
   <header>
     <h1>Nikhil B</h1>
-    <h2>DevOps Engineer</h2>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <p>Fresher DevOps Engineer | Docker | CI/CD | Cloud Enthusiast</p>
   </header>
 
-  <!-- About Section -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
   <section id="about">
     <h2>About Me</h2>
-    <p>I’m a passionate DevOps Engineer trained in cloud, CI/CD, Docker, Kubernetes, GitHub Actions, and more. I’ve built real-world projects and I’m actively seeking a fresher opportunity to contribute my skills.</p>
+    <p>I am a passionate DevOps Engineer fresher with strong foundational knowledge in Docker, CI/CD pipelines, cloud services, and deployment automation. I’ve completed hands-on training in DevOps and Cloud Computing, and I’m now looking to join a forward-thinking company where I can grow and contribute meaningfully from day one.</p>
   </section>
 
-  <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
-    <ul>
-      <li><a href="https://github.com/nikhil3939/node-k8s-task" target="_blank">Node.js App with Kubernetes</a></li>
-      <li><a href="https://github.com/nikhil3939/persistt-logs-task" target="_blank">Log Persistence with Docker</a></li>
-      <li><a href="https://github.com/nikhil3939/nginx-node-proxy" target="_blank">Nginx Reverse Proxy with Node</a></li>
-      <li><a href="https://github.com/nikhil3939/multi-service-docker-task" target="_blank">Multi-Service Docker + CI/CD</a></li>
-      <li><a href="https://github.com/nikhil3939/node-docker-task" target="_blank">Dockerized Node.js App</a></li>
-      <li><a href="https://github.com/nikhil3939/CONTACT-FORM-APP" target="_blank">Contact Form (Next.js + Node.js)</a></li>
-    </ul>
+
+    <div class="project">
+      <h3><a href="https://github.com/nikhil3939/node-k8s-task" target="_blank">Node.js App with Kubernetes</a></h3>
+      <p>Containerized a Node.js application and deployed it using Kubernetes on a local cluster. Applied <code>kubectl</code> for pod management and basic service exposure.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/nikhil3939/persistt-logs-task" target="_blank">Logging with Node.js + Persistent Volumes</a></h3>
+      <p>Created a Docker-based Node.js app with logging functionality. Used Docker volumes to persist logs and mounted the log path for container recovery and analysis.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/nikhil3939/nginx-node-proxy" target="_blank">Nginx Reverse Proxy with Node.js</a></h3>
+      <p>Configured Nginx as a reverse proxy for a Node.js app running in a Docker container. Ensured proper routing and improved app scalability.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/nikhil3939/multi-service-docker-task" target="_blank">Multi-Service Docker + MongoDB</a></h3>
+      <p>Built a backend service in Node.js that connects to MongoDB, containerized using Docker Compose. Focused on service linking and environment config via <code>.env</code>.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/nikhil3939/node-docker-task" target="_blank">Dockerized Node.js App</a></h3>
+      <p>Packaged a simple Node.js application using Docker. Wrote a Dockerfile from scratch and tested the app using local Docker containers.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/nikhil3939/CONTACT-FORM-APP" target="_blank">Full Stack Contact Form App</a></h3>
+      <p>Developed and deployed a full-stack contact form using Next.js for frontend and Node.js + Express for backend. Deployed frontend on Vercel and backend on Render.</p>
+    </div>
   </section>
 
-  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: nikhilnikhi3939@gmail.com</p>
+    <p>Email: nikhilb.devops@gmail.com</p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/nikhil-b-23b89327a" target="_blank">nikhil-b-23b89327a</a></p>
-   
   </section>
 
-  <!-- Back to Top Button -->
-  <button id="toTopBtn" style="display:none; position:fixed; bottom:20px; right:20px;">↑ Top</button>
-
-  <!-- Footer -->
   <footer>
     <p>&copy; <span id="year"></span> Nikhil B. All rights reserved.</p>
   </footer>
 
-  <!-- Script -->
+  <button id="toTopBtn" style="display:none; position:fixed; bottom:20px; right:20px;">↑ Top</button>
+
   <script src="script.js"></script>
 </body>
 </html>
